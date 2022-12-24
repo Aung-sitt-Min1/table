@@ -1,0 +1,10 @@
+@keyframes animation 
+{
+    0%{color: black;text-align: left;}
+    33%{color: red; text-align: center;}
+    66%{color: purple;text-align: right;}
+    100%{color: black;text-align: left;}
+}
+table{
+    animation: animation 10s infinite;
+}
